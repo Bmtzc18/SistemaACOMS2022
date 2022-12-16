@@ -1,6 +1,6 @@
 <nav class=" bg-azul-tec">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
-      <div class="flex h-20 items-center flow-root">
+      <div class="h-20 items-center flow-root">
           <div class="flex items-center ">
              <div class="flex-shrink-0">
                 <img class="h-15 w-16" src="{{asset('img/logoITTG.png')}}">
@@ -62,7 +62,7 @@
 
 
             <div>
-                <button type="submit"
+                <button type="submit" 
                     class="group relative flex w-full justify-center rounded-md border border-transparent bg-sky-800 py-2 px-4 text-sm font-medium text-white hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2">
                     <span class="absolute inset-y-0 left-0 flex items-center pl-3">
                         <!-- Heroicon name: mini/lock-closed -->

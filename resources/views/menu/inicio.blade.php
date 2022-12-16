@@ -18,4 +18,5 @@
     @livewire('navigation')
 </body>
 
+
 </html>

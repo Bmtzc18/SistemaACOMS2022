@@ -14,10 +14,9 @@
         @yield('header')
     </header>
     <main>
-        <h2>@yield('pagTitle')</h2>
         @yield('content')
     </main>
-    <footer class="text-center p-5 text-xl bg-slate-400 text-gray-200 font-bold shadow md:items-center md:justify-between md:p-6 h-screen mb-auto justify-between">
+    <footer class="py-10 text-stone-500 text-center border-t font-bold text-xl object-contain">
         @yield('footer')
     </footer>
 </body>
