@@ -43,6 +43,9 @@ Route::get('/informacion', function () {
 Route::get('/tablaAcoms', function () {
     return view('Invitado.tablaAcoms');
 });
+Route::get('/cambioCA', function () {
+    return view('Invitado.cambioCA');
+});
 
 
 

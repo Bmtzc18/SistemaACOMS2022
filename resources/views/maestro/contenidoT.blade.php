@@ -21,7 +21,7 @@
                         <h1 class="text-white text-center font-bold text-3xl">ITTG</h1>
                     </div>
                     <div class="max-w-7xl py-4 px-4 sm:px-6 lg:px-8 relative float-right ">
-                    <button class="text-gray-300 hover:bg-sky-600 hover:text-white px-3 py-2 rounded-md text-md font-bold " type="button" onClick="location.href='/principalD'"  >  
+                    <button class="text-gray-300 hover:bg-sky-600 hover:text-white px-3 py-2 rounded-md text-md font-bold " type="button" onClick="history.go(-1);"  >  
                       Regresar
                     </button>
                     </div>

@@ -8,10 +8,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'azul-tec': '#1d70a2',
+        'azul-tec': '#213a62',
         'azul-grisecito': '#9BB4CB',
-        'azul-fondo': '#3C5F8D',
-        'azul-iconos': '#4C6E9B',
+        'azul-fondo': '#0f3457',
+        'azul-iconos': '#15497a',
         'azul-menuL':'#84AACD',
         'azul-submenu':'#759CBF',
         'azul-b1':'#1D70A2',

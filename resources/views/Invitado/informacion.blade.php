@@ -6,16 +6,18 @@
       <div class="hidden md:block lg:block xl:block  w-3/6  bg-slate-200"> 
         <h1 class="text-center text-sky-800 mt-24 text-4xl font-bold ">Bienvenido</h1>
         <img class="h-auto w-auto" src="{{asset('img/actividades.png')}}">
+        <div class="flex sm:flex flex-wrap">
         <button class="ml-28 h-16 w-24 pl-3 rounded-md bg-neutral-100 shadow-md hover:bg-white" onclick="moveSlide(-1)" > 
           <svg xmlns="http://www.w3.org/2000/svg" width="68" height="50" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
           </svg>
         </button>
-        <button class="ml-36 h-16 w-24 pl-3 rounded bg-neutral-100 hover:bg-white shadow-md" onclick="moveSlide(1)"> 
+        <button class="ml-28 lg:ml-32 mt-5 lg:mt-0 h-16 w-24 pl-3 rounded bg-neutral-100 hover:bg-white shadow-md" onclick="moveSlide(1)"> 
           <svg xmlns="http://www.w3.org/2000/svg" width="68" height="50" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
           </svg>
         </button>
+        </div>
       </div>  
       <div class="h-full w-screen md:w-3/4"> 
           <div class="relative mx-auto">
@@ -62,14 +64,14 @@
     
             <div class="slide relative">
               <h1 class="p-10 text-2xl font-bold text-center">Tipos de acoms</h1>
-              <img class="mx-80 h-64 w-64" src="{{asset('img/copiar.png')}}" alt="informacion">
-              <p class="pt-8 pl-16">Actualmente existen siete tipos de actividades complementarias, a continuación se muestra a detalle información sobre los tipos de acom existentes.</p> 
-              <button type="button" class="bg-sky-700 hover:bg-sky-600 rounded-lg mt-5 ml-96 h-14 w-32 text-white font-bold" onClick="location.href='/tablaAcoms'" >
+              <img class=" ml-40 md:ml-60 lg:ml-80 h-44 w-44 lg:h-64 lg:w-64" src="{{asset('img/copiar.png')}}" alt="informacion">
+              <p class="pt-8 pl-16 px-10">Actualmente existen siete tipos de actividades complementarias, a continuación se muestra a detalle información sobre los tipos de acom existentes.</p> 
+              <button type="button" class="bg-sky-700 hover:bg-sky-600 rounded-lg mt-5 ml-48 sm:ml-64 md:ml-44 lg:ml-96 h-14 w-32 text-white font-bold" onClick="location.href='/tablaAcoms'" >
                 Ver aquí
               </button>  
             </div>
 
-            <div class="flex justify-center mt-3 mb-5  md:mt-10 lg:mt-10 space-x-5">
+            <div class="flex justify-center  mb-5 mt-3 md:mt-10 lg:mt-10 space-x-5">
               <div class="dot w-4 h-4 rounded-full cursor-pointer" onclick="currentSlide(1)"></div>
               <div class="dot w-4 h-4 rounded-full cursor-pointer" onclick="currentSlide(2)"></div>
               <div class="dot w-4 h-4 rounded-full cursor-pointer" onclick="currentSlide(3)"></div>
