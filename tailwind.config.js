@@ -16,6 +16,8 @@ module.exports = {
         'azul-submenu':'#759CBF',
         'azul-b1':'#1D70A2',
         'azul-b2':'#233569', 
+        'azul-tabla':'#E6EBEF',
+        'azul-botones':'#140152',
       },
     },
   },

@@ -100,11 +100,11 @@
                                </div>
                            </a>
                            
-                           <div class="text-left text-sm mt-2 w-4/5 mx-auto text-gray-200 font-bold" id="submenu">
+                           <div class="text-left text-sm mt-2 w-full mx-auto text-gray-200 font-bold" id="submenu">
                                <h1  onClick="location.href='/tAct'"  class="cursor-pointer p-2 hover:bg-sky-600 rounded-md mt-1">
                                     Autorizadas
                                </h1>
-                               <h1  onClick="location.href='/tAct'"  class="cursor-pointer p-2 hover:bg-sky-600 rounded-md mt-1">
+                               <h1  onClick="location.href='/ActPendientes'"  class="cursor-pointer p-2 hover:bg-sky-600 rounded-md mt-1">
                                     Pendientes/Rechazadas
                             </h1>
                            </div>   

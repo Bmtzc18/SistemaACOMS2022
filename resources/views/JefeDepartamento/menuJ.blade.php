@@ -57,7 +57,7 @@
                         </form>
                     </div>
            
-                     <ul class="mt-6 space-y-2 tracking-wide">
+                     <ul class="mt-6 space-y-2 tracking-wide mr-4">
                        <li class="min-w-max">
                            <a href="/"
                            class="flex items-center active-nav-link text-white py-4 nav-item rounded-md px-4 duration-300 cursor-pointer hover:bg-sky-600">
@@ -69,60 +69,47 @@
                            <span class="text-[15px] text-lg ml-4 text-gray-200 font-bold">Principal</span>
                        </a>
                        <li class="min-w-max">
-                        <a href="/registroAct"
-                            class="flex items-center active-nav-link text-white py-4  nav-item rounded-md px-4 duration-300 cursor-pointer hover:bg-sky-800">
+                        <a href="/registroProf"
+                            class="flex items-center active-nav-link text-white py-4 mt-8 nav-item rounded-md px-4 duration-300 cursor-pointer hover:bg-sky-600">
                             <i class="bi bi-house-door-fill"></i>
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-file-earmark" viewBox="0 0 16 16">
                                 <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"/>
                               </svg>
-                            <span class="text-[15px] text-lg ml-4 text-gray-200 font-bold">Registrar actividad</span>
+                            <span class="text-[15px] text-lg ml-5 text-gray-200 font-bold">Registrar profesor</span>
                         </a>
                     </li>
 
 
-                       <li class="min-w-max">
-                           <a class="flex items-center active-nav-link text-white py-4 pl-4 nav-item rounded-md px-4 duration-300 cursor-pointer hover:bg-sky-600"
-                               onclick="dropdown()">
-                               <i class="bi bi-chat-left-text-fill"></i>
-                               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7">
-                                   <path stroke-linecap="round" stroke-linejoin="round" d="M12 10.5v6m3-3H9m4.06-7.19l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
-                                 </svg>
-                                 
-                               <div class="flex justify-between w-full mr-2 items-center">
-                                   <span class="text-[14px] text-lg ml-4 text-gray-200 font-bold">Gestionar actividades</span>
-                                   <span class="text-sm rotate-180" id="arrow">
-                                       <i class="bi bi-chevron-down"></i>
-                                   </span>
-                               </div>
-                           </a>
-                           
-                           <div class="text-left text-sm mt-2 w-4/5 mx-auto text-gray-200 font-bold" id="submenu">
-                               <h1  onClick="location.href='/tAct'"  class="cursor-pointer p-2 hover:bg-sky-600 rounded-md mt-1">
-                                    Autorizadas
-                               </h1>
-                               <h1  onClick="location.href='/tAct'"  class="cursor-pointer p-2 hover:bg-sky-600 rounded-md mt-1">
-                                    Pendientes/Rechazadas
-                            </h1>
-                           </div>   
-
-                       </li>
-           
-                      
-           
-                       <li class="min-w-max">
-                           <a href="/listarA"
-                               class="flex items-center active-nav-link text-white py-4  nav-item rounded-md px-4 duration-300 cursor-pointer hover:bg-sky-600">
+                    <li class="min-w-max">
+                           <a href="/gestionarProfesores"
+                               class="flex items-center active-nav-link text-white py-4 mt-4 nav-item rounded-md px-4 duration-300 cursor-pointer hover:bg-sky-600">
                                <i class="bi bi-house-door-fill"></i>
                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
                                    <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8Zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816ZM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0Zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z"/>
                                  </svg>
-                               <span class="text-[15px] text-lg ml-4 text-gray-200 font-bold">Listar liberados</span>
+                               <span class="text-[15px] text-lg ml-4 text-gray-200 font-bold">Gestionar
+                                <p>profesores</p>
+                               </span>
                            </a>
                        </li>
+
+                       <li class="min-w-max">
+                        <a href="/autorizarActividades"
+                            class="flex items-center active-nav-link text-white py-4 mt-4 nav-item rounded-md px-4 duration-300 cursor-pointer hover:bg-sky-600">
+                            <i class="bi bi-house-door-fill"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-bookmarks" viewBox="0 0 16 16">
+                                <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1H4z"/>
+                                <path d="M4.268 1H12a1 1 0 0 1 1 1v11.768l.223.148A.5.5 0 0 0 14 13.5V2a2 2 0 0 0-2-2H6a2 2 0 0 0-1.732 1z"/>
+                              </svg>
+                            <span class="text-[15px] text-lg ml-4 text-gray-200 font-bold">Autorizar
+                             <p>actividades</p>
+                            </span>
+                        </a>
+                    </li>
                        
                        <li class="min-w-max">
                            <a href="/"
-                           class="flex items-center active-nav-link text-white py-4 nav-item rounded-md px-4 duration-300 cursor-pointer hover:bg-sky-600">
+                           class="flex items-center active-nav-link text-white py-4 mt-5 nav-item rounded-md px-4 duration-300 cursor-pointer hover:bg-sky-600">
                            <i class="bi bi-house-door-fill"></i>
                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
                                <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z"/>
@@ -174,7 +161,7 @@
           
           
                     <div class="ml-3 relative">
-                        <button class="text-gray-300 hover:bg-sky-800 hover:text-white px-3 py-2 rounded-md text-md font-bold " type="button" onClick="history.go(-1);"  >  
+                        <button class="text-gray-300 hover:bg-sky-600 mr-3 hover:text-white px-3 py-2 rounded-md text-md font-bold " type="button" onClick="history.go(-1);"  >  
                             Regresar
                           </button>
                             <button id="notificaBtn"
@@ -237,11 +224,6 @@
 
 <script type="text/javascript">
    
-    function dropdown() {
-        document.querySelector("#submenu").classList.toggle("hidden");
-        document.querySelector("#arrow").classList.toggle("rotate-0");
-    }
-
     function wProfile() {
         document.querySelector("#profileDiv").classList.toggle("hidden");
         document.querySelector("#profileBtn").classList.toggle("rotate-0");
@@ -253,7 +235,7 @@
         document.querySelector("#notificaBtn").classList.toggle("rotate-0");
     }
 
-    dropdown();
+
     wProfile();
     wNotifica();
 

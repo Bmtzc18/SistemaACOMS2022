@@ -31,7 +31,7 @@ Route::get('/cambioD', function () {
 
 
 
-
+//Invitado
 Route::get('/inicioInv', function () {
     return view('Invitado.inicioInv');
 });
@@ -48,7 +48,7 @@ Route::get('/cambioCA', function () {
 });
 
 
-
+//Docente 
 
 Route::get('/tAct', function () {
     return view('maestro.tAct');
@@ -81,13 +81,41 @@ Route::get('/registroAct', function () {
     return view('maestro.registroAct');
 });
 
+Route::get('/liberarAlumnos', function () {
+    return view('maestro.liberarAlumnos');
+});
+
+Route::get('/alumnosAprobados', function () {
+    return view('maestro.alumnosAprobados');
+});
+Route::get('/alumnosNAprobados', function () {
+    return view('maestro.alumnosNAprobados');
+});
+Route::get('/ActPendientes', function () {
+    return view('maestro.ActPendientes');
+});
 
 
 
+
+
+
+//Jefe
 
 Route::get('/principalJ', function () {
     return view('JefeDepartamento.principalJ');
 });
+
+Route::get('/registroProf', function () {
+    return view('JefeDepartamento.registroProf');
+});
+Route::get('/gestionarProfesores', function () {
+    return view('JefeDepartamento.gestionarProfesores');
+});
+Route::get('/autorizarActividades', function () {
+    return view('JefeDepartamento.autorizarActividades');
+});
+
 
 
 

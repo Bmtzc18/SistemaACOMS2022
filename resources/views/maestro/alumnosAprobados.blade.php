@@ -3,10 +3,9 @@
 @section('content')
 <div class="flex flex-col justify-center h-auto w-auto mt-10 mx-10 bg-stone-100 shadow-lg rounded-md">
     <div class="mt-10">
-        <h1 class="text-center text-3xl font-bold">Solicitudes para la Actividad</h1>
-        <div class="flex flex-row justify-end mt-10 mr-20">
-          <button class="w-24 h-10 mr-8 text-white font-semibold bg-green-500 rounded-md">Aceptar</button>
-          <button class="w-24 h-10 text-white font-semibold bg-red-500 rounded-md">Rechazar</button>
+        <h1 class="text-center text-3xl font-bold">Actividad</h1>
+        <div class="flex flex-row mt-10 ml-8">
+          <button class="w-48 h-10 mr-8 text-white font-semibold bg-red-500 rounded-md">Deshacer evaluación</button>
         </div>    
     </div>
       <div class="overflow-x-auto relative shadow-md sm:rounded-lg mx-8 mt-4">
@@ -18,40 +17,46 @@
                         <input id="select-all" type="checkbox" value="" class="w-5 h-5 ml-8 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600">
                     </th>
                     <th scope="col" class="py-3 px-6">
-                        Apellidos
+                        Número de control
                     </th>
                     <th scope="col" class="py-3 px-6">
                         Nombre(s)
                     </th>
                     <th scope="col" class="py-3 px-6">
-                        Usuario
+                        Apellidos 
                     </th>
                     <th scope="col" class="py-3 px-6">
-                        Carrera
+                        Tipo de ACOM
                     </th>  
+                    <th scope="col" class="py-3 px-4">
+                       Credito obtenido
+                    </th>    
                     <th scope="col" class="py-3 px-6">
-                        No. de Control
-                    </th>                    
+                        Calificación obtenida 
+                     </th>                  
                 </tr>
             </thead>
             <tbody>
-                <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+                <tr class="bg-azul-grisecito border-b dark:bg-gray-900 dark:border-gray-700">
                     <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                         <input id="myCheckbox" type="checkbox" name="casillas" value="" class="w-5 h-5 ml-8 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600">
                     </th>
                     <td class="py-4 px-6">
+                      18270337
+                    </td>
+                    <td class="py-4 px-6">
                        Brenda
+                    <td class="py-4 px-6">
+                       Martinez Castillo
                     </td>
                     <td class="py-4 px-6">
-                        Acom-2
-                    <td class="py-4 px-6">
-                        Departamento de Sistemas y Computación
+                       ACOM 1
+                    </td>
+                    <td class="py-4 px-4">
+                        0.5
                     </td>
                     <td class="py-4 px-6">
-                        Admi
-                    </td>
-                    <td class="py-4 px-6">
-                        Admi
+                        Excelente
                     </td>
                    
                 </tr>
@@ -60,27 +65,30 @@
                           <input id="myCheckbox" type="checkbox" name="casillas"  value="" class="w-5 h-5 ml-8 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600">
                     </th>
                     <td class="py-4 px-6">
-                        Proyectos de investigación
-                    </td>
-                    <td class="py-4 px-6">
-                       Acom-2
-                    </td>
-                    <td class="py-4 px-6">
-                        sistemas
-                    </td>
-                    <td class="py-4 px-6">
-                        Admi
-                    </td>
-                    <td class="py-4 px-6">
-                        Admi
-                    </td>
+                        18270337
+                      </td>
+                      <td class="py-4 px-6">
+                         Brenda
+                      <td class="py-4 px-6">
+                         Martinez Castillo
+                      </td>
+                      <td class="py-4 px-6">
+                         ACOM 1
+                      </td>
+                      <td class="py-4 px-4">
+                          0.5
+                      </td>
+                      <td class="py-4 px-6">
+                          Excelente
+                      </td>
                    
                 </tr>
                 
             </tbody>
         </table>
     </div>
-</div>
+</div> 
+
     <script type="text/javascript">
         document.getElementById('select-all').onclick = function() {
         var checkboxes = document.getElementsByName('casillas');
